@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.height{
+    height: calc(100vh - 80px);
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* .prg-img-1,
+.prg-img-2,
+.prg-img-3 {
+    display: none;
+}
+
+.prg-1:hover ~ .prg-img-1 {
+    display: block;
+}
+
+.prg-2:hover ~ .prg-img-2 {
+    display: block;
+}
+
+.prg-3:hover ~ .prg-img-3 {
+    display: block;
+} */
+
+
+
