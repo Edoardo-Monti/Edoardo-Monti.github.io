@@ -30,6 +30,7 @@
                     emailjs.sendForm('service_5a0tcnf', 'template_xfrvhoc', this)
                         .then(function() {
                             console.log('SUCCESS!');
+                            alert("L' invio del messaggio è avvenuto con successo");
                         }, function(error) {
                             console.log('FAILED...', error);
                         });
@@ -87,15 +88,12 @@
                         <label class="form-label">Textarea</label>
                         <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" required ></textarea>
                     </div>
-                    <button type="submit" value="Send" class="btn btn-primary">Submit</button>
+                    <button type="submit" value="Send" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
                 </form>
             </div>
         </div>
     </div>
     
-
-
-
 
     
 </body>
